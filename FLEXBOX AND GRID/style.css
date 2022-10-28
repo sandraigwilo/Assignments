@@ -1,0 +1,169 @@
+/* CSS RESET */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+/* Styling the body */
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+/* Styling the main */
+
+main{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: hsl(0, 0%, 95%);
+    padding: 90px;
+}
+
+/* Removing the bullets in the navigation bar */
+
+nav{
+    text-align: center;
+    border: 1px;
+    border-radius: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+/* Aligning list horizontally */
+
+nav li{
+    display: inline;
+    font-family: 'Lexend Deca', sans-serif;   
+}
+
+/* Spacing the list items and removing  */
+
+nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+}
+
+/* Changing link colour on hover  */
+
+nav li a:hover{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 20px;
+}
+
+/* Allowing user know the current page they are on */
+
+.active{
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 20px;
+}
+
+/* Making navigation bar fixed while scrolling through page */
+
+nav ul{
+    position: relative;
+    top: 30px;
+    width: 100%;
+}
+
+/* Styling the sedans container */
+
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 300px;
+    height: 70vh;
+}
+
+h1{
+
+    color: hsl(0, 0%, 95%);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display';
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 80px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    height: 50%;
+
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    border: thin solid hsl(0, 0%, 95%);
+}
+
+#sedans button{
+    color: hsl(31, 77%, 52%);
+}
+
+#suvs button{
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury button{
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover{
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+    color: white !important;
+}
+
+/* Styling the suvs container */
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 300px;
+    height: 70vh;
+}
+
+/* Styling the luxury container */
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 300px;
+    height: 70vh;
+}
+
+@media screen and (min-width:1024px) {
+    main{
+        display: flex;
+    }
+
+    nav ul li a{
+        padding: 15px 20px;
+    }
+    
+    p{
+        width: 60%;
+        line-height: 25px;
+    }
+    
+    button{
+        padding: 10px 30px;
+    }
+}
