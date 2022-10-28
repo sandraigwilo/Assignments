@@ -1,0 +1,270 @@
+/* CSS RESET */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder; 
+}
+
+/* Removing the bullets in the navigation bar */
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Aligning list horizontally */
+
+nav li{
+    display: inline;
+    margin: 10px;
+}
+
+#logo{
+    float: left;
+    font-style: italic;
+    color: rgb(253, 120, 4);
+}
+
+/* Spacing the list items and removing  */
+
+nav ul li a{
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 10px;   
+}
+
+/* Changing link colour on hover  */
+
+nav li a:hover{
+    background-color: rgb(8, 14, 11);
+    color: rgb(234, 229, 224);
+    border-radius: 20px;
+}
+
+/* Allowing user know the current page they are on */
+
+.active{
+    background-color: rgb(253, 120, 4);
+    color: rgb(12, 12, 12);
+    border-radius: 20px;
+}
+
+/* Link to my code */
+#code{
+  margin: 10px;
+}
+
+#codeLink{
+    font-size: 10px;
+}
+
+#link{
+  color: rgb(253, 120, 4);
+}
+
+/* Main Content */
+
+#sandy{
+  margin-top: 20px;  
+}
+
+#deve{
+    margin-bottom: 20px;
+}
+
+.me{
+ margin-bottom: 10px;  
+}
+
+#full{
+    margin: 20px;
+}
+
+.orange{
+    color: rgb(253, 120, 4);
+}
+
+.personal{
+   margin-top: 10px; 
+}
+
+.service{
+   margin: 20px 0 10px 0; 
+}
+
+.project{
+   margin: 20px 0 10px 0; 
+}
+
+/* Styling the image */
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+/* The paragragh in the footer section */
+
+footer p{
+    color: rgb(253, 120, 4);
+    margin-bottom: 50px;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  #topnav{
+    float: right;
+  }
+
+  nav{
+    background-color: rgb(52, 51, 51);
+    height: 10vh;
+    width: 100%;
+  }
+
+  #codeLink{
+    color: white;
+}
+
+/* Changing link colour on hover  */
+
+nav li a:hover{
+  background-color: rgb(52, 51, 51);
+  color: white;
+  border-radius: 20px;
+}
+
+/* Allowing user know the current page they are on */
+
+.active{
+  background-color: rgb(253, 120, 4);
+  color: rgb(52, 51, 51);
+  border-radius: 20px;
+}
+
+body{
+  color: rgb(253, 120, 4);
+}
+
+  .orange{
+    color: white;
+}
+
+    #top{
+    display: grid;
+    background-color: rgb(52, 51, 51);
+    padding: 20px;
+    color: white;
+    margin-right: 200px;
+    margin-left: 50px;
+  } 
+  
+  #full{
+    text-align: left;
+  }
+
+  .personal{
+    text-align: left;
+    padding: 20px;
+  }
+
+  #bottom{
+    display: grid;
+    width: 50%;
+    background-color: rgb(52, 51, 51);
+    margin-right: 20px;
+  }
+
+  #topBottom{
+    display: flex;
+    width: 100%;
+    margin: 80px 5px;
+  }
+
+  #about{
+    display: grid;
+    background-color: rgb(52, 51, 51);
+    color: white;
+    margin-left: 50px;
+    padding: 20px;
+    width: 40%;
+  }
+
+  #fullAbout{
+    display: grid;
+    background-color: rgb(52, 51, 51);
+    width: 40%;
+    margin-left: 250px;
+    margin-right: 50px;
+    color: white;
+  }
+
+  #aboutFull{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #project{
+    display: grid;
+    margin: 50px;
+    background-color: rgb(52, 51, 51);
+    padding: 20px;
+  }
+
+  #others{
+    width:100%;
+    margin: 50px;
+    display: flex;
+  }
+
+  #sp{
+    display: grid;
+    margin: 25px;
+    background-color: rgb(52, 51, 51);
+    padding: 20px;
+    width: 20%;
+  }
+  
+  #hobby{
+    display: grid;
+    margin: 25px;
+    padding: 20px;
+    background-color: rgb(52, 51, 51);
+    width: 20%;
+  }
+
+  #priority{
+    display: grid;
+    margin: 25px;
+    background-color: rgb(52, 51, 51);
+    padding: 20px;
+    width: 20%;
+  }
+
+  #skill{
+    display: grid;
+    margin: 25px;
+    background-color: rgb(52, 51, 51);
+    padding: 20px;
+    width: 20%;
+  }
+
+  ul li{
+    list-style: none;
+  }
+
+  footer p{
+    font-size: 20px;
+  }
+}

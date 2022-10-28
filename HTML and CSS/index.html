@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div id="code">
+      <p id="codeLink">
+        <a
+          href="https://replit.com/@sandraigwilo/Zuriporfolio#index.html" id="link">Here
+        </a>
+        is the link to my code, please pardon me.
+      </p>
+    </div>
+    <div id="mainContainer">
+      <h1 id="fill">Register Account</h1>
+    <form class="frm" action="login.html" method="post">
+      <table>
+        <tr>
+          <td><label for="fname" class="fn"> First Name</label></td>
+          <td><input type="text" id="fname" name="fname" maxlength="20" minlength="3" placeholder="Your first name" required>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="lname" class="ln">Last Name</label></td>
+          <td><input type="text" id="lname" name="lname" maxlength="20" minlength="3" placeholder="Your last name" required></td>
+        </tr>
+        <tr>
+          <td><label for="phone" class="num">Phone Number</label></td>
+          <td><input type="tel" id="phone" name="phone" placeholder="0801-234-5678" required
+              pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"></td>
+        </tr>
+        <tr>
+          <td><label for="email" class="em">Email</label></td>
+          <td><input type="email" id="email" name="email" placeholder="happy@gmail.com" required></td>
+        </tr>
+        <tr>
+          <td><label for="gender" class="gen">Gender</label></td>
+          <td>
+            <select id="gender" name="gender" required>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="birthday" class="bd">Date of Birth</label></td>
+          <td><input type="date" id="birthday" name="birthday"></td>
+        </tr>
+        <tr>
+          <td><label for="colorpicker" class="cp">Favourite Colour</label></td>
+          <td><input type="color" id="colorpicker" value="#fd7804"></td>
+        </tr>
+      </table>
+      <button type="submit" class="end">Register</button>
+    </form>
+    </div>
+  </main>
+  <footer>
+    <p class="account">Already have an account? <a href="login.html">Sign In</a></p>
+  </footer>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

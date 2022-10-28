@@ -1,0 +1,82 @@
+/* CSS RESET */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder; 
+}
+
+/* Removing the bullets in the navigation bar */
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Aligning list horizontally */
+
+nav li{
+    display: inline;
+    margin: 1px;
+}
+
+#logo{
+    float: left;
+    margin: 10px 0px 0px 0px;
+    font-style: italic;
+    color: rgb(253, 120, 4);
+}
+
+/* Spacing the list items and removing  */
+
+nav ul li a{
+    padding: 1px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 10px;   
+}
+
+/* Changing link colour on hover  */
+
+nav li a:hover{
+    background-color: rgb(8, 14, 11);
+    color: rgb(253, 120, 4);
+    border-radius: 20px;
+}
+
+/* Allowing user know the current page they are on */
+
+.active{
+    background-color: rgb(253, 120, 4);
+    border-radius: 20px;
+}
+
+/* This is the heading */
+
+#fill{
+    font-size: 20px;
+    color: rgb(253, 120, 4);
+    margin: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    nav ul li{
+     float: right;
+     margin: 20px;
+    } 
+ 
+    #logo{
+     margin: 20px;
+    }
+ 
+    #fill{
+     margin-top: 100px;
+    }
+ }

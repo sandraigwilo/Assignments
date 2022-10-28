@@ -1,0 +1,206 @@
+/* CSS RESET */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder; 
+}
+
+/* Link to my code */
+#code{
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+}
+
+#codeLink{
+    font-size: 10px;
+}
+
+#link{
+  color: rgb(253, 120, 4);
+}
+
+
+/* This is the heading */
+
+#fill{
+    font-size: 30px;
+    color: rgb(253, 120, 4);
+    margin: 50px 0px 30px 0px;
+}
+
+/* The form */
+
+table{
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(55, 55, 72);
+    padding: 20px;
+}
+
+/* First name */
+
+.fn{
+    font-size: 10px;
+    color: rgb(215, 217, 231);
+}
+
+#fname{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(8, 14, 11);
+    color: rgb(215, 217, 231);
+    font-size: 10px;
+}
+
+/* Last name */
+
+.ln{
+    font-size: 10px;
+    color: rgb(215, 217, 231);
+}
+
+#lname{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(8, 14, 11);
+    color: rgb(215, 217, 231);
+    font-size: 10px;
+}
+
+/* Phone number */
+
+.num{
+    font-size: 10px;
+    color: rgb(215, 217, 231);
+}
+
+#phone{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(8, 14, 11);
+    color: rgb(215, 217, 231);
+    font-size: 10px;
+}
+
+/* Email */
+
+.em{
+    font-size: 10px;
+    color: rgb(215, 217, 231);
+}
+
+#email{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(8, 14, 11);
+    color: rgb(215, 217, 231);
+    font-size: 10px;
+}
+
+/* Gender */
+
+.gen{
+    font-size: 10px;
+    color: rgb(215, 217, 231);
+}
+
+#gender{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(8, 14, 11);
+    color: rgb(215, 217, 231);
+    font-size: 10px;
+}
+
+/* Birthday */
+
+.bd{
+    font-size: 10px;
+    color: rgb(215, 217, 231);
+}
+
+#birthday{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(2, 2, 2);
+    color: rgb(215, 217, 231);
+    font-size: 10px;
+}
+
+/* Favourite Colour */
+
+.cp{
+    font-size: 10px;
+    color: rgb(215, 217, 231);
+}
+
+#colorpicker{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(12, 12, 12);
+}
+
+/* Stylying the register button */
+
+button{
+    background-color: rgb(253, 120, 4);
+    color: rgb(12, 12, 12);
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 50px;
+}
+
+button:hover{
+    background-color: rgb(8, 14, 11);
+    color: rgb(215, 217, 231);
+}
+
+/* Sign in */
+
+.account{
+    margin-bottom: 50px;
+    font-size: 10px;
+}
+
+p a{
+    text-decoration: none;
+    color: rgb(253, 120, 4);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+p a:hover{
+    background-color: rgb(8, 14, 11);
+    color: rgb(215, 217, 231);
+}
+
+@media screen and (min-width: 768px) {
+    nav ul li{
+     float: right;
+     margin: 20px;
+    } 
+ 
+    #logo{
+     margin: 20px;
+    }
+ 
+    #fill{
+     margin-top: 100px;
+    }
+ }
