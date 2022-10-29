@@ -29,6 +29,6 @@ Please adhere to this project's `code of conduct`.
 
 
 ## 🚀 About Me
-I'm a full stack developer...
+I'm a full stack developer currently upskilling at the internship training program organized by The ZuriTeam.
 https://github.com/sandraigwilo
 
